@@ -1,0 +1,21 @@
+{
+    "name": "WolfGG",
+    "version": "1.0.1",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "storage",
+        "scripting",
+        "tabs",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ],
+    "icons": {
+        "128": "icon-128.png"
+    }
+}
